@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact move2U – Send us your questions, suggestions or feedback." />
+  <title>move2U – Contact Us</title>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" >
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <ul class="navbar-nav">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero-section">
+      <div>
+        <h1 class="hero-title">Contact Us</h1>
+        <p class="hero-subtitle">Got questions? We'd love to hear from you. Reach out anytime!</p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT FORM ===================== -->
+    <section class="form-section">
+      <div class="form-card">
+        <h2>Send Us a Message</h2>
+        <p class="form-subtitle">Fill in the form below and we'll get back to you shortly.</p>
+        <div id="formAlertArea" role="alert"></div>
+        <form id="contactForm">
+          <div class="form-group">
+            <label>Full Name <span class="required">*</span></label>
+            <input type="text" id="contactName" placeholder="e.g. Maria Oliveira"  required />
+            <span class="field-error" id="contactNameError" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label>Phone Number <span class="required">*</span></label>
+            <input type="tel" id="contactPhone" placeholder="e.g. 912345678" required />
+            <span class="field-error" id="contactPhoneError" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label>Email Address <span class="required">*</span></label>
+            <input type="email" id="contactEmail" placeholder="you@example.com"required />
+            <span class="field-error" id="contactEmailError" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label>Nature of Query <span class="required">*</span></label>
+            <textarea id="contactQuery" rows="4" placeholder="Describe your question or feedback here..." required></textarea>
+            <span class="field-error" id="contactQueryError" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn-submit" id="contactSubmitBtn">
+            <i class="bi bi-send-fill"></i> Send Message
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== FUN CARD ===================== -->
+    <section  class="fun-card-section">
+      <div class="fun-card">
+        "Even if U don't match... at least you acted!<br />
+        And activity keeps you alive longer 💪"
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-social">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+      </div>
+      <!-- could have used h1,h2,h3 instead of medium but wanted to show a different approach for the footer text as well -->
+      <medium> 2026 MOVE2U all rights reserved.</medium>
+      <p>
+        Disclaimer:The text comments, history and feedbacks were generated using AI (GPT) since this is a academic project.
+      </p>
+    </div>
+  </footer>
+
+    <!-- ===================== SUCCESS TOAST ===================== -->
+    <div id="successToast" role="alert">
+      Well Done. Wait a few minutes to see the confirmation in your mailbox.
+    </div>
+
+  <script src="js/contacts.js"></script>
+</body>
+</html>
