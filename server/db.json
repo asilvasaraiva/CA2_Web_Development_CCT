@@ -1,0 +1,265 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Trail Running Shoes",
+      "category": "running",
+      "price": 89.99,
+      "stock": 15,
+      "brand": "TrailPro IE",
+      "rating": 4.8,
+      "description": "Grip-soled shoes perfect for Phoenix Park or Wicklow trails.",
+      "image": "https://images.unsplash.com/photo-1542291526-38801a14de40?w=480&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Road Running Shoes",
+      "category": "running",
+      "price": 74.99,
+      "stock": 20,
+      "brand": "TrailPro IE",
+      "rating": 4.6,
+      "description": "Lightweight road shoes with responsive foam cushioning.",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=480&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Hydration Running Vest",
+      "category": "running",
+      "price": 59.99,
+      "stock": 10,
+      "brand": "TrailPro IE",
+      "rating": 4.7,
+      "description": "10 L vest with dual 500 ml soft flasks for long Irish runs.",
+      "image": "https://images.unsplash.com/photo-1553290322-4c0b13e7e1cb?w=480&q=80"
+    },
+    {
+      "id": "4",
+      "name": "Compression Run Socks",
+      "category": "running",
+      "price": 14.99,
+      "stock": 60,
+      "brand": "TrailPro IE",
+      "rating": 4.4,
+      "description": "Irish wool blend with graduated compression to cut fatigue.",
+      "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=480&q=80"
+    },
+    {
+      "id": "5",
+      "name": "High-Vis Cycling Jersey",
+      "category": "cycling",
+      "price": 44.99,
+      "stock": 22,
+      "brand": "VeloCeltic",
+      "rating": 4.6,
+      "description": "Moisture-wicking jersey with reflective panels for Irish weather.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Aero Cycling Helmet",
+      "category": "cycling",
+      "price": 79.99,
+      "stock": 14,
+      "brand": "VeloCeltic",
+      "rating": 4.8,
+      "description": "EN1078-certified, 18-vent shell with integrated LED tail light.",
+      "image": "https://images.unsplash.com/photo-1557803175-b8f5048b4ef4?w=480&q=80"
+    },
+    {
+      "id": "7",
+      "name": "Cycling Bib Shorts",
+      "category": "cycling",
+      "price": 54.99,
+      "stock": 18,
+      "brand": "VeloCeltic",
+      "rating": 4.5,
+      "description": "Padded bib shorts for all-day comfort on long weekend rides.",
+      "image": "https://images.unsplash.com/photo-1519311965067-36d3e5f33d39?w=480&q=80"
+    },
+    {
+      "id": "8",
+      "name": "All-Terrain Hiking Boots",
+      "category": "hiking",
+      "price": 119,
+      "stock": 10,
+      "brand": "BogWalker IE",
+      "rating": 4.9,
+      "description": "Waterproof ankle-support boots built for the Wicklow Way.",
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d0f0?w=480&q=80"
+    },
+    {
+      "id": "9",
+      "name": "Carbon Trekking Poles",
+      "category": "hiking",
+      "price": 54.99,
+      "stock": 18,
+      "brand": "BogWalker IE",
+      "rating": 4.6,
+      "description": "Lightweight carbon poles with anti-shock and cork grip (pair).",
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=480&q=80"
+    },
+    {
+      "id": "10",
+      "name": "Waterproof Hiking Jacket",
+      "category": "hiking",
+      "price": 99,
+      "stock": 12,
+      "brand": "BogWalker IE",
+      "rating": 4.7,
+      "description": "Packable, windproof shell – essential for unpredictable Irish skies.",
+      "image": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=480&q=80"
+    },
+    {
+      "id": "11",
+      "name": "GPS Sports Watch",
+      "category": "fitness",
+      "price": 189,
+      "stock": 8,
+      "brand": "PulseTrack",
+      "rating": 4.9,
+      "description": "HR monitor, GPS & Strava sync – your move2U training companion.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=480&q=80"
+    },
+    {
+      "id": "12",
+      "name": "Premium Yoga Mat",
+      "category": "fitness",
+      "price": 35.99,
+      "stock": 30,
+      "brand": "ZenFlow",
+      "rating": 4.7,
+      "description": "Non-slip eco-friendly 6 mm mat, perfect for park sessions.",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcf2b3b9b?w=480&q=80"
+    },
+    {
+      "id": "13",
+      "name": "Resistance Bands Set ×5",
+      "category": "fitness",
+      "price": 24.99,
+      "stock": 40,
+      "brand": "StrengthBand IE",
+      "rating": 4.5,
+      "description": "Five levels 5–40 kg for park workouts and home training.",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80"
+    },
+    {
+      "id": "14",
+      "name": "Insulated Water Bottle",
+      "category": "fitness",
+      "price": 22.99,
+      "stock": 50,
+      "brand": "HydroEire",
+      "rating": 4.6,
+      "description": "750 ml BPA-free stainless steel — keeps cold 24 h, hot 12 h.",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=480&q=80"
+    },
+    {
+      "id": "15",
+      "name": "Foam Roller",
+      "category": "fitness",
+      "price": 29.99,
+      "stock": 35,
+      "brand": "ZenFlow",
+      "rating": 4.5,
+      "description": "High-density foam roller for post-run muscle recovery.",
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=480&q=80"
+    },
+    {
+      "id": "16",
+      "name": "Kettlebell 16 kg",
+      "category": "fitness",
+      "price": 49.99,
+      "stock": 15,
+      "brand": "StrengthBand IE",
+      "rating": 4.7,
+      "description": "Cast-iron kettlebell for functional fitness and HIIT sessions.",
+      "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=480&q=80"
+    },
+    {
+      "id": "17",
+      "name": "Dog Sport Harness",
+      "category": "pets",
+      "price": 34.99,
+      "stock": 25,
+      "brand": "PawPace IE",
+      "rating": 4.7,
+      "description": "Hands-free running harness for your move2U companion. Reflective.",
+      "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=480&q=80"
+    },
+    {
+      "id": "18",
+      "name": "Dog Collapsible Water Bowl",
+      "category": "pets",
+      "price": 9.99,
+      "stock": 55,
+      "brand": "PawPace IE",
+      "rating": 4.5,
+      "description": "Lightweight foldable bowl – perfect for trail walks with your dog.",
+      "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=480&q=80"
+    },
+    {
+      "id": "19",
+      "name": "Sports Sunglasses",
+      "category": "fitness",
+      "price": 39.99,
+      "stock": 28,
+      "brand": "PulseTrack",
+      "rating": 4.6,
+      "description": "UV400, wrap-around lens – ideal for running, cycling and hiking.",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=480&q=80"
+    },
+    {
+      "id": "20",
+      "name": "Running Headlamp",
+      "category": "running",
+      "price": 27.99,
+      "stock": 22,
+      "brand": "TrailPro IE",
+      "rating": 4.8,
+      "description": "300-lm, USB rechargeable – light up early morning or night runs.",
+      "image": "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=480&q=80"
+    }
+  ],
+  "basket": [],
+  "orders": [
+    {
+      "id": "M2U-1779451270059",
+      "name": "asdasda",
+      "email": "alex_saraiva14@hotmail.com",
+      "phone": "0830385790",
+      "address": "82 Grace Park Heights",
+      "items": [
+        {
+          "id": "2",
+          "name": "Road Running Shoes",
+          "brand": "TrailPro IE",
+          "price": 74.99,
+          "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=480&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": "74.99",
+      "placedAt": "2026-05-22T12:01:10.059Z"
+    },
+    {
+      "id": "M2U-1779451500289",
+      "name": "asdasda",
+      "email": "alex_saraiva14@hotmail.com",
+      "phone": "0830385790",
+      "address": "82 Grace Park Heights",
+      "items": [
+        {
+          "id": "2",
+          "name": "Road Running Shoes",
+          "brand": "TrailPro IE",
+          "price": 74.99,
+          "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=480&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": "74.99",
+      "placedAt": "2026-05-22T12:05:00.289Z"
+    }
+  ]
+}
