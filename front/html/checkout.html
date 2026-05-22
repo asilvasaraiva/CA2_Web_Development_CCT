@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>move2U – Checkout</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="/front/css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/front/html/index.html">Home</a>
+      <ul class="navbar-nav">
+        <li><a href="/front/html/about.html">About Us</a></li>
+        <li><a href="/front/html/shop.html">Shop</a></li>
+        <li><a href="/front/html/contact.html">Contact Us</a></li>
+        <li>
+          <a href="/front/html/checkout.html" class="cart-nav-link active">
+            <i class="bi bi-cart3"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-section">
+      <div>
+        <h1 class="hero-title">Checkout</h1>
+        <p class="hero-subtitle">Almost there — review your order and complete your details.</p>
+      </div>
+    </section>
+
+    <section class="checkout-section">
+      <div class="container checkout-layout">
+
+        <!-- LEFT: order summary -->
+        <div class="checkout-summary">
+          <h2>Order Summary</h2>
+          <div id="summaryItems">
+            <!-- rendered by checkout.js -->
+          </div>
+          <div class="summary-total">
+            <span>Total</span>
+            <strong id="summaryTotal">€0.00</strong>
+          </div>
+          <a href="shop.html" class="back-to-shop">
+            <i class="bi bi-arrow-left"></i> Continue shopping
+          </a>
+        </div>
+
+        <!-- RIGHT: delivery form -->
+        <div class="checkout-form-wrap">
+          <h2>Your Details</h2>
+
+          <!-- shown only after successful order -->
+          <div id="orderConfirmation" class="order-confirmation" hidden>
+            <!-- rendered by checkout.js -->
+          </div>
+
+          <form id="checkoutForm" novalidate>
+            <div class="form-group">
+              <label >Full Name <span class="required">*</span></label>
+              <input type="text" id="chkName" placeholder="e.g. Aoife Murphy" required />
+              <span class="field-error" id="chkNameErr" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label >Email <span class="required">*</span></label>
+              <input type="email" id="chkEmail" placeholder="you@example.ie" required />
+              <span class="field-error" id="chkEmailErr" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label >Phone <span class="required">*</span></label>
+              <input type="tel" id="chkPhone" placeholder="087 123 4567" required />
+              <span class="field-error" id="chkPhoneErr" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label >Delivery Address <span class="required">*</span></label>
+              <input type="text" id="chkAddress" placeholder="12 Main Street, Dublin 1, Ireland" required />
+              <span class="field-error" id="chkAddressErr" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn-submit" id="placeOrderBtn">
+              <i class="bi bi-check-circle-fill"></i> Place Order
+            </button>
+          </form>
+        </div>
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-social">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+      </div>
+      <!-- could have used h1,h2,h3 instead of medium but wanted to show a different approach for the footer text as well -->
+      <medium> 2026 MOVE2U all rights reserved.</medium>
+      <p>
+        Disclaimer:Some texts were generated using AI (GPT) since this is a academic project.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/front/js/checkout.js"></script>
+</body>
+</html>
