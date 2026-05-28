@@ -109,7 +109,8 @@ document.getElementById('checkoutForm').addEventListener('submit', async e => {
 function showConfirmation(order) {
   clearBasket(); //clear the basket after successful order
   updateCartCount();//update the cart count after clearing the basket
-alert(`Thank you for your order, ${order.name}!\n\nYour order ID is ${order.id} and the total amount is €${order.total}.\n\nA confirmation email has been sent to ${order.email}.`);
+  alert(`Thank you for your order, ${order.name}!\n\nYour order ID is ${order.id} and the total amount is €${order.total}.\n\nA confirmation email has been sent to ${order.email}.`);
+  window.location.href = "../html/shop.html"; //Redirect the user to the shop page after showing the confirmation message
 }
 
 // Map of form field names to their corresponding error message element IDs
